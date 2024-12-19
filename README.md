@@ -1,7 +1,20 @@
-# EserciziGP1
-# Esercizi Base di C#
+# Compiti delle Vacanze Natalizie 2024
+## Manuel Medina
+Progetto contenente gli esercizi assegnati per le vacanze.
 
-## Variabili
+Nel percorso `/Natale2024/Argometi/` verranno salvati i file del programma sotto il namespace `Natale2024.Argomenti` già importato nel file Progam.cs che contine il metodo Main.
+
+### Cartella "Argomenti"
+Ogni file rappresenta contiene tutti gli esercizi per ogni argomento/paragrafo nella consegna.
+
+### File nella cartella "Argomenti"
+I file caricati nella cartella argomenti prenderanno il nome dall'argomento che trattano e conterrano una classe statica dello stesso nome con una funzione statica chiamata `Parti()`. I singoli esercizi verranno evidenziati dai commenti nel codice con `//ES - N` e da feedback nella console.
+
+### Avvio
+All'avvio del progetto gli esercizi verranno eseguiti e stampati in console nell'ordine della consegna.
+
+### Consegna
+#### Variabili
 1. Dichiarare una variabile di tipo `int` e assegnarle un valore, quindi modificarlo.
 2. Creare una variabile di tipo `string`, assegnarle un valore e concatenarla con un'altra stringa.
 3. Dichiarare una variabile di tipo `bool` e cambiarne il valore.
@@ -21,7 +34,7 @@
 17. Utilizzare una variabile per rappresentare una data usando il tipo `DateTime`.
 18. Dichiarare una variabile e utilizzarla in un'espressione matematica.
 
-## Funzioni
+#### Funzioni
 1. Dichiarare una funzione che restituisce un valore di tipo `int` e accetta due parametri.
 2. Creare una funzione `void` che stampa un messaggio a console.
 3. Scrivere una funzione che accetta un parametro `string` e restituisce la lunghezza della stringa.
@@ -35,7 +48,7 @@
 11. Scrivere una funzione che modifica una lista passata come parametro.
 12. Creare una funzione che utilizza un'espressione condizionale per determinare il valore restituito. (if else)
 
-## Algebra di bool
+#### Algebra di bool
 1. Utilizzare un `if-else` per verificare se un numero è pari o dispari.
 2. Scrivere un programma che utilizza una serie di `if-else` per categorizzare un'età.
 3. Creare un'espressione logica che combina più condizioni con `&&`.
@@ -61,7 +74,7 @@
 23. Utilizzare un `if` per verificare se un valore è un numero primo.
 24. Scrivere un programma che utilizza un'istruzione `if-else` per verificare se una parola è palindroma.
 
-## Loop
+#### Loop
 1. Scrivere un ciclo `for` che stampa numeri da 1 a 10.
 2. Creare un ciclo `while` che continua finché un valore è minore di 100.
 3. Utilizzare un ciclo `do-while` per chiedere all'utente di inserire un valore valido.
@@ -88,7 +101,7 @@
 24. Scrivere un ciclo `for` che calcola la media di un array.
 25. Creare un ciclo `foreach` che copia valori da un array a un altro.
 
-## Enum, Struct e Cast
+#### Enum, Struct e Cast
 1. Creare un `enum` per rappresentare i giorni della settimana e iterare sui valori.
 2. Dichiarare un `enum` per rappresentare i livelli di priorità di un task.
 3. Usare un `enum` per selezionare un'opzione in uno switch-case.
@@ -115,7 +128,7 @@
 24. Utilizzare un `enum` per rappresentare i tipi di file supportati da un'app.
 25. Creare una `struct` per rappresentare un vettore e calcolare il prodotto scalare.
 
-## Array e Liste
+#### Array e Liste
 1. Creare un array di `int` con 5 elementi e stamparne i valori.
 2. Dichiarare una lista di stringhe e aggiungere elementi dinamicamente.
 3. Creare un array bidimensionale e popolarlo con valori. ([,])
@@ -142,7 +155,7 @@
 24. Utilizzare un array per rappresentare una tabella di moltiplicazione.
 25. Dichiarare una lista e convertirla in array.
 
-## Classi
+#### Classi
 1. Creare una classe `Persona` con proprietà per nome e età e una classe `Lavoro` con parametri il nome e la descrizione.
 2. Dichiarare una classe con un costruttore parametrizzato.
 3. Creare una classe che implementa un metodo per calcolare un valore.
