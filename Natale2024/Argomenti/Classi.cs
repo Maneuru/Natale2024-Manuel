@@ -1,8 +1,8 @@
 namespace Natale2024.Argomenti 
 {
-    public class Program
+    public class Classi
     {
-        public static void Main(string[] args)
+        public static void Parti()
         {
             Console.WriteLine("Esercizi sulle classi.");
 
