@@ -39,7 +39,7 @@ namespace Natale2024.Argomenti
             // Es - 6
             Console.WriteLine("6. Usare una variabile di tipo decimal per rappresentare una quantità monetaria.");
             decimal e6 = 99.99m;
-            Console.WriteLine("\tVariabile decimal e6: {0}€\n", e6);
+            Console.WriteLine("\tVariabile decimal e6: {0}\n", e6.ToString("C"));
 
             // Es - 7
             Console.WriteLine("7. Dichiarare una variabile float e assegnarle un valore, verificandone la precisione rispetto a double.");

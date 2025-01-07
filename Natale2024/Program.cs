@@ -8,9 +8,10 @@ namespace Natale2024
         {
             Console.WriteLine("Benvenuto nei compiti della vacanze natalizie di Manuel Medina\n");
 
-            Variabili.Parti();
-            Funzioni.Parti();
-            AlgebraBool.Parti();
+            // Variabili.Parti();
+            // Funzioni.Parti();
+            // AlgebraBool.Parti();
+            EnumStructCast.Parti();
         }
     }
 }
